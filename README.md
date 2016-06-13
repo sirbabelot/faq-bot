@@ -1,1 +1,1 @@
-# demo-bot
+# faq-bot
