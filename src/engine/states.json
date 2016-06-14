@@ -2,32 +2,29 @@
   "HEY_THERE": {
    "text": "Helloo!!"
   },
-  "GREETING": {
-    "text": "Hey I'm Ms. Domus! I'm here 24/7 to answer your questions about renting with domus (e.g. 'Are pets allowed?'). What question can I help you with?"
+  "is_parking": {
+    "text": "Helloo! I'm here to answer your questions (e.g. 'Are pets allowed?'). What can I help you with?"
   },
-  "GROUP_MYSELF": {
-    "attachment":{
+  "NO_HELP": {
+   "attachment":{
       "type":"template",
       "payload":{
         "template_type":"button",
-        "text":"Are you looking with a group of friends or by yourself?",
+        "text":"Okay no probs, contact us whenever!",
         "buttons":[
           {
-            "type":"postback",
-            "title":"group",
-            "payload":"group"
+            "type":"web_url",
+            "title":"call",
+            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=HAQGLeTAo"
           },
           {
-            "type":"postback",
-            "title": "by myself",
-            "payload":"by myself"
+            "type":"web_url",
+            "title": "email",
+            "url":"https://www.facebook.com/l.php?u=mailto%3Arent%40domushousing.com&h=HAQGLeTAo"
           }
         ]
       }
     }
-  },
-  "NO_HELP": {
-    "text": "Okay! If you still need to talk to someone you can checkout our contact section! :D"
   },
   "OK_GOOD": {
     "text": "ok sounds good!"
@@ -36,7 +33,7 @@
     "text": "uhm..i don't get it lol :P "
   },
   "VIEWING":{
-    "text": "If you are looking for a vieing, you can call our Rental Hotline at 519-572-0278 or 1-855-MY-DOMUS and we can schedule a Virtual Reality tour using our Oculus Goggles at our office located at 295 Weber St. N., Suite 7. Cool huh?"
+    "text": "If you are looking for a viewing, you can call our Rental Hotline at 519-572-0278 or 1-855-MY-DOMUS and we can schedule a Virtual Reality tour using our Oculus Goggles at our office located at 295 Weber St. N., Suite 7. Cool huh?"
   },
   "SECURITY_DEPOSIT":{
     "text": "The reason for the deposit, is that you will need to place an immediate payment of last month's rent to secure the room in your name. Just as a reminder, this is a non-refundable deposit!"
@@ -53,10 +50,7 @@
   "UTILITIES":{
     "text": "Most of the Domus houses & apartments come with the majority of utilities covered by the landlord. Utilities are not included in the rent but as outlined in the lease, if you pay your rent on time, the landlord agrees to pay your utilities at a set price of $50."
   },
-  "HELP":{
-    "text": "Okay, what question are you curious about?"
-  },
   "MORE_HELP":{
-    "text": "Okay, do you have any other questions?"
+    "text": "Do you have any other questions?"
   }
 }

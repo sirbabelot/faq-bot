@@ -35,7 +35,6 @@ function turn(message) {
     responseKeysHash = bot.onEnter();
   } else {
     responseKeysHash = bot.onInput(message.body);
-    console.log(responseKeysHash);
   }
   return getMessagesToSend(responseKeysHash);
 }

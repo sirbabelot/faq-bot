@@ -6,6 +6,8 @@
 var regex = require('./regex.js');
 var STATES = require('./states.json');
 var State = require('./State.js');
+const luis = require('./luis.js');
+
 
 var room_price, room_num;
 
@@ -15,24 +17,21 @@ function getResponsesByKeys(responses) {
 
 module.exports = {
   "GREETING": new State({
-    onEnter: function() {
-      return ['GREETING', JSON.stringify(['GREETING']) ]
-    },
-    onInput: function(message) {
-      if (message.search(regex.no) >= 0) {
-        return ['NO_HELP', JSON.stringify(['NO_HELP'])];
-      } else if (message.search(regex.faq) >= 0) {
-        return ['FAQ', JSON.stringify(['HELP'])];
-      } else {
-        return ['GREETING', JSON.stringify(['I_DONT_UNDERSTAND', 'GREETING']) ];
-      }
+    onEnter() {
+      return ['FAQ', JSON.stringify(['GREETING']) ]
     }
   }),
   "FAQ": new State({
-    onEnter: function(){
+    onInput(message){
+      let self = this;
+      luis
+        .query(message)
+        .then((result) => {
+          console.log('INTENT', result.intents[0].intent);
+        })
+        .catch(err => console.log(wrr));
 
-    },
-    onInput: function(message){
+
       if (message.search(regex.viewing) >= 0) {
         return ['FAQ', JSON.stringify(['MORE_HELP', 'VIEWING'])];
       } else if (message.search(regex.deposit) >= 0) {
@@ -42,9 +41,9 @@ module.exports = {
       } else if (message.search(regex.utilities) >= 0) {
         return ['FAQ', JSON.stringify(['MORE_HELP', 'UTILITIES'])];
       }else if (message.search(regex.no) >= 0) {
-        return ['NO_HELP', JSON.stringify(['NO_HELP'])];
+        return ['FAQ', JSON.stringify(['NO_HELP'])];
       }else{
-        return ['FAQ', JSON.stringify(['I_DONT_UNDERSTAND', 'FAQ']) ];
+        return ['FAQ', JSON.stringify(['I_DONT_UNDERSTAND']) ];
       }
     }
   })
