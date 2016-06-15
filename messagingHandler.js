@@ -1,9 +1,8 @@
 "use strict";
-const engine = require('./src/engine/engine.js');
 const request = require('superagent');
 const fbAccessToken = process.env.FB_ACCESS_TOKEN;
 const fs = require('fs');
-const statlessEngine = require('./src/statelessEngine.js');
+const statelessEngine = require('./src/statelessEngine.js');
 
 
 // Hack (Morgan), but a small one since the chat bot expects a reset on the
@@ -21,18 +20,13 @@ function handleMessageEvent(event) {
       isFirstMessage = false;
     }
 
-    statlessEngine
+    statelessEngine
       .computeResponse(message.body)
       .then( responses => {
         responses.forEach((response) => {
           sendMessage(sender, response);
         });
       } );
-
-    // let responses = engine.turn(message);
-    // responses.forEach((response) => {
-    //   sendMessage(sender, response);
-    // });
   }
 }
 

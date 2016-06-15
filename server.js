@@ -5,7 +5,6 @@ const app = express();
 const request = require('superagent');
 const bodyParser = require('body-parser');
 const fbAccessToken = process.env.FB_ACCESS_TOKEN;
-const engine = require('./src/engine/engine.js');
 const fs = require('fs');
 const handleMessageEvent = require('./messagingHandler.js');
 const handlePostback = require('./postbackHandler.js');

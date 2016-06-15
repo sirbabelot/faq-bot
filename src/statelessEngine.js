@@ -1,5 +1,5 @@
 "use strict";
-const luis = require('./engine/luis.js');
+const luis = require('./luis.js');
 const responses = require('./faq/responses.json');
 
 
