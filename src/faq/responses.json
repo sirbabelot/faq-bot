@@ -2,6 +2,9 @@
   "greeting": {
     "text": "Salutations, friend!"
   },
+  "thanks": {
+    "text": "It was nothing 8|"
+  },
   "None": {
     "attachment":{
       "type":"image",
@@ -20,7 +23,8 @@
           {
             "type":"web_url",
             "title":"Call",
-            "url":"https://www.domushousing.com/faq.php"
+
+            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
           },
           {
             "type":"web_url",
@@ -41,7 +45,7 @@
           {
             "type":"web_url",
             "title":"Call ext. 102",
-            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=HAQGLeTAo"
+            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
           }
         ]
       }
@@ -82,7 +86,7 @@
           }, {
             "type":"web_url",
             "title":"Call with ext. 102",
-            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=HAQGLeTAo"
+            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
           }
         ]
       }
