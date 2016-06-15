@@ -1,13 +1,21 @@
 {
+  "greeting": {
+    "text": "Salutations, friend!"
+  },
   "None": {
-    "text": "Sorry, I dont understand, can you try something else?"
+    "attachment":{
+      "type":"image",
+      "payload":{
+        "url":"http://i.giphy.com/14aUO0Mf7dWDXW.gif"
+      }
+    }
   },
   "schedule_viewing": {
    "attachment": {
       "type": "template",
       "payload": {
         "template_type": "button",
-        "text": "Call our Rental Hotline at 1-855-MY-DOMUS and schedule a Virtual Reality tour at our office located at 295 Weber St. N., Suite 7. We try our best to give our current tenants 24 hours notice for viewings, so be proactive and call ahead of the day you plan to make an appointment!",
+        "text": "Call and schedule a Virtual Reality tour at our office. We try our best to give our current tenants 24 hours notice for viewings, so be proactive and call ahead of the day you plan to make an appointment!",
         "buttons": [
           {
             "type":"web_url",
@@ -32,8 +40,8 @@
         "buttons": [
           {
             "type":"web_url",
-            "title":"Call with ext. 102",
-            "url":"https://www.facebook.com/l.php?u=tel%225195720278&h=HAQGLeTAo"
+            "title":"Call ext. 102",
+            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=HAQGLeTAo"
           }
         ]
       }
