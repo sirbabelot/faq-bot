@@ -29,16 +29,16 @@ function computeResponse(message) {
 
 function getGif(message) {
   return new Promise ((resolve, reject) => {
-    // request.get('http://api.giphy.com/v1/gifs/search')
-    // .query({q: message})
-    // .query({limit: 1})
-    // .query({api_key: "dc6zaTOxFJmzC"})
-    // .end((err, gif) => {
-      // if (gif.body.data[0]) {
-      //   responses['None'].attachment.payload.url = gif.body.data[0].images.fixed_height.url;
-      // }
+    request.get('http://api.giphy.com/v1/gifs/search')
+    .query({q: message})
+    .query({limit: 1})
+    .query({api_key: "dc6zaTOxFJmzC"})
+    .end((err, gif) => {
+      if (gif.body.data[0]) {
+        responses['None'].attachment.payload.url = gif.body.data[0].images.fixed_height.url;
+      }
       resolve([responses['None'], {text: "ooh one sec! I've got a good one"}]);
-   // });
+    });
   });
 }
 
