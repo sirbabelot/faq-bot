@@ -23,7 +23,6 @@ function handleMessageEvent(event) {
     statelessEngine
       .computeResponse(message.body)
       .then( responses => {
-        console.log('RESPONSES', responses);
         responses.forEach((response) => {
           sendMessage(sender, response);
         });
