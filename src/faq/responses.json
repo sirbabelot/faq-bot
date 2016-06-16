@@ -40,7 +40,7 @@
       "type": "template",
       "payload": {
         "template_type": "button",
-        "text": "You can always cancel a viewing! Just call in as much advance as you can, please and thanks!",
+        "text": "You can always cancel a viewing! Just call as much advance as you can, please and thanks!",
         "buttons": [
           {
             "type":"web_url",
