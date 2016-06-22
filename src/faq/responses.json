@@ -24,12 +24,12 @@
             "type":"web_url",
             "title":"Call",
 
-            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
+            "url":"https://www.facebook.com/l.php?u=tel%3A5555555555&h=sAQHTr9Ou"
           },
           {
             "type":"web_url",
             "title": "Map",
-            "url":"https://www.google.ca/maps?q=295+Weber+St.+N.,+Suite+7&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiD87HYsKjNAhWqxYMKHQXRDIAQ_AUICCgB"
+            "url":"https://goo.gl/IJEilT"
           }
         ]
       }
@@ -45,7 +45,7 @@
           {
             "type":"web_url",
             "title":"Call ext. 102",
-            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
+            "url":"https://www.facebook.com/l.php?u=tel%3A5555555555&h=sAQHTr9Ou"
           }
         ]
       }
@@ -82,11 +82,11 @@
           {
             "type":"web_url",
             "title":"Sample Forms",
-            "url":"https://www.domushousing.com/forms.php"
+            "url":"http://foersom.com/net/HowTo/data/OoPdfFormExample.pdf"
           }, {
             "type":"web_url",
             "title":"Call with ext. 102",
-            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
+            "url":"https://www.facebook.com/l.php?u=tel%3A5555555555&h=sAQHTr9Ou"
           }
         ]
       }
@@ -105,7 +105,7 @@
           {
             "type":"web_url",
             "title":"Get payment form",
-            "url":"http://www.domushousing.com/authform.pdf"
+            "url":"http://foersom.com/net/HowTo/data/OoPdfFormExample.pdf"
           }
         ]
       }
@@ -124,7 +124,7 @@
     "text": "In the waiver you sign as part of the leasing package, it states that tenants belongings should be insured, either by renter's insurance or extended coverage under his or her parent/guardian's home insurance."
   },
    "pet_friendly":{
-    "text": "Sorry, Domus houses and apartments don't accept pets :'( "
+    "text": "Sorry, SomeCompany houses and apartments don't accept pets :'( "
   },
   "smoking":{
     "attachment": {
