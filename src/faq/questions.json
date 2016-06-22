@@ -1,0 +1,277 @@
+{
+  "schedule_viewing":[
+     "How do I schedule a viewing",
+     "How can I see a place?",
+     "When can I schedule a viewing?",
+     "When can I look at a rental?",
+     "When are showings?",
+     "When can I see an opening?",
+     "When can I schedule a showing",
+     "Is someone free to show me a rental?",
+     "Can someone show me a place?",
+     "I'd like to look at some rentals"
+     ],
+  "cancel_viewing":[
+     "I need to cancel my viewing?",
+     "How do I cancel my viewing?",
+     "How do I cancel my appointment?",
+     "How do I cancel my meeting to view a place?",
+     "How do I cancel my meeting to view a rental?",
+     "Something popped up, I cant see my listing",
+     "I cant come to my appointment anymore",
+     "I need to reschedule my viewing of the property",
+     "I need to reschedule my showing"
+     ],
+  "wait_outside": [
+    "where do i meet the agent?",
+    "what do i do during a showing?",
+    "do I have to see the place with an agent?",
+    "can i just go into the house?",
+    "i'm early, can i knock?",
+    "the agent is late for a showing. what do i do?",
+    "what do i do if i'm early to a showing",
+    "where do i wait for a showing",
+    "At a showing, do I wait outside for the leasing agent?"
+  ],
+  "consider_renting": [
+    "What should I consider when I'm renting a place to live?",
+    "what are things to consider",
+    "what should i think about when renting",
+    "what's important when renting",
+    "how do i know what's important when renting",
+    "what are frequently asked questions",
+    "What should I consider when I'm renting a place to live?",
+    "What should I know about renting a place?"
+  ],
+  "groups_individuals": [
+    "do you rent to groups?",
+    "do you rent to individuals",
+    "do you rent ot groups or individuals",
+    "can i rent with my friends",
+    "can i rent as part of a group",
+    "who can i rent with",
+    "can i apply as a group"
+  ],
+  "secure_listing":[
+     "What do I need to put down to secure a house?",
+     "What do I need to put down to secure a rental?",
+     "What do I need to put down to secure a lease?",
+     "How do I lock in a rental?",
+     "Can I put a listing on hold?",
+     "how do i get a place?",
+     "What is the key deposit and how much does it cost?",
+     "Is there a depost that I have to pay?",
+     "How much does the deposit cost?"
+  ],
+  "deposit_refundable":[
+     "Is the deposit refundable?",
+     "When do I get the deposit back?",
+     "can i get my money back?",
+     "i want the deposit back",
+     "can i have my deposit back?",
+     "i want a refund",
+     "i want to refund my deposit"
+  ],
+  "key_deposit":[
+    "what's the key deposit?",
+    "is there a key deposit",
+    "how much is the key deposit?",
+    "does the key cost money?",
+    "What is the key deposit and how much does it cost?"
+  ],
+  "return_key": [
+    "how do i return my key?",
+    "how do I get the key deposit back?",
+    "do i get my key deposit back?",
+    "i want my key deposit back",
+    "can i have my key deposit back",
+    "i want to return my keys",
+    "where can i drop off my keys",
+    "where can i return my keys",
+    "can i return my keys",
+    "can i get my money back for the key deposit",
+    "is the key deposit refundable?",
+    "what happens if i lose a key?",
+    "if i lose my key what do i do",
+    "i lost my key",
+    "i can't return all of my keys",
+    "i lost one of my my keys",
+    "i can't find my keys"
+  ],
+  "lease_length":[
+    "How long is a lease?",
+    "how do i get out of a lease",
+    "how long do i have to lease for",
+    "can i lease for a term",
+    "can i lease for 5 months",
+    "what leases do you offer",
+    "can i go month to month",
+    "do i have to sign a year long lease"
+  ],
+  "lease_copy":[
+    "Where can I read over a copy of the lease?",
+    "is there a copy of the lease i can read?",
+    "can i look at the lease",
+    "can i read the lease",
+    "what does your lease look like",
+    "where do i get a copy of the lease",
+    "where can i look over a copy of the lease"
+  ],
+  "lease_online": [
+    "how does the online lease process work?",
+    "can i sign a lease online",
+    "how do i sign a lease online",
+    "how do i rent a place online",
+    "how do i get a place online"
+  ],
+  "payment": [
+    "what forms of payment do you accept?",
+    "how can i pay you"
+  ],
+  "key_payment": [
+    "how do i pay the key deposit",
+    "how can i pay the key deposit",
+    "how do i pay my key deposit?",
+    "where can i pay my key deposit"
+  ],
+  "deposit_payment": [
+    "how do i pay the initial deposit",
+    "how can i pay the initial deposit",
+    "how do i pay my initial deposit?",
+    "where do i pay the initial deposit"
+  ],
+  "rent_payment": [
+    "how do i pay the rent",
+    "how can i pay the rent",
+    "how do i pay my rent?",
+    "where do i pay the rent"
+  ],
+  "advance_method_of_payment": [
+    "Why do you ask for a method of payment so far in advance?",
+    "i don't know my method of payment yet",
+    "i don't know how i'm going to pay yet",
+    "why are you asking me for a payment method so early?"
+  ],
+  "guarantor_form":[
+    "What is a Gaurantor form?",
+    "What is a Guarantor form?",
+    "Do I need a co-signer for my lease?",
+    "Do I need a co-signer for my rental?",
+    "Do I need a Guarantor rental form?",
+    "What is a Guarntor Fund?"
+  ],
+   "house_clean":[
+    "Will my house be cleand before I move in?",
+    "What if my hosue is dirty?",
+    "My house is dirty, who is going to clean it?"
+  ],
+   "renters_insurance":[
+    "Why do I need renters insurance?",
+    "Do I need renter's insurance?",
+    "Do I need insurance?",
+    "What do I have to pay for this rental insurance?",
+    "How much is the insurance?"
+  ],
+   "pet_friendly":[
+    "Are your houses pet-friendly?",
+    "Can I own a dog?",
+    "Can I own a cat?",
+    "Are pets allowed?"
+  ],
+  "smoking":[
+    "What are the rules about smoking?",
+    "Are we allowed to smoke?",
+    "Is smoking indoors allowed?",
+    "What if a smoke inside?"
+  ],
+   "maintenance":[
+    "How does maintenance work at Domus property?",
+    "My stove is broken",
+    "My dryer is broken",
+    "How do I fill out a maintenance request?",
+    "I need to contact my landlord about an issue with an appliance",
+    "My appliance is broken",
+    "My rental needs maintenance"
+  ],
+   "sublet_allowed":[
+    "Is subletting allowed?",
+    "Can I sublet?",
+    "Can i sublet my room?",
+    "Am i allowed to sublet?"
+  ],
+   "sublet_help":[
+    "Will you help me sublet?",
+    "Can you assist with finding a sublet for me?",
+    "Do you have any tips for finding a sublet?"
+  ],
+   "sublet_opposity_sex":[
+    "If I'm in an all-female OR all-male unit can I sublet to a member of the opposite sex?",
+    "If I'm a guy, can i sublet to a girl?",
+    "If I'm a girl, can i sublet to a guy?"
+  ],
+   "room_replacement":[
+    "I have found a replacement, what is next?",
+    "I found someone to replace my room."
+  ],
+   "roommate_issues":[
+    "Do you help with rommate issues",
+    "What if I have an issue with a roomate?",
+    "I dont like my roomate"
+  ],
+  "assign_rooms":[
+    "Do you assign rooms?",
+    "How do i pick my room"
+    ],
+  "rent":[
+    "How much is rent?",
+    "How much is it per month?",
+    "What does it cost per month?"
+  ],
+  "utilities_included":[
+    "Are utilities included in the rent?",
+    "Do I have to pay for utilities?",
+    "How much more are utilities?",
+    "Do I have to pay for hydro?",
+    "Do I have to pay for water?",
+    "Do I have to pay for electricity?"
+  ],
+  "internet_included":[
+    "Is internet included in the rent?",
+    "Is internet free?",
+    "How much is internet?",
+    "How much more is internet?",
+    "Is internet included in utilities?"
+  ],
+  "rent_vs_discount":[
+    "According to the lease, am I paying $50 more in rent OR am I getting a $50 discount?"
+  ],
+  "landlord_vs_company":[
+    "What's the difference between renting from a landlord and your company?"
+  ],
+ "is_parking": [
+    "where is parking",
+    "is there parking",
+    "what's parking like?",
+    "do i get parking?",
+    "do you know if i can park my car there",
+    "is parking included",
+    "can i park?",
+    "does parking cost extra?",
+    "will i get parking?",
+    "i'm gonna need parking",
+    "does domus offer parking?",
+    "what's your parking policy?",
+    "where can I park?",
+    "where do I park?",
+    "is parking gonna be a problem",
+    "is there a parking lot?",
+    "i have a car. where can i put it",
+    "where can i keep my car",
+    "is there a car garage?",
+    "do i get a garage?",
+    "will i have a garage?",
+    "is there parking space?",
+    "can i rent a parking spot",
+    "how much is a parking permit"
+   ]
+}
